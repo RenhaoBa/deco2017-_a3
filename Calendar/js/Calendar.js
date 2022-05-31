@@ -10,41 +10,9 @@ function Calendar() {
 	yearNames['ZH'] = '';
 	var monthDays = new Array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
 	var weekNames = ['SUN.','MON.','TUE.','WED.','THU.','FRI.','SAT.'];
-	//待办事项数据结构
+	//To-do list data structure
 	var toDoObj = {};
-	//              '2015-3-12':
-	//              [
-	//                  {
-	//                      time:'12:05',
-	//                      content:'观看中央新闻',
-	//                      id:'1'
-	//                  },
-	//                  {
-	//                      time:'15:05',
-	//                      content:'洗衣服',
-	//                      id:'2'
-	//                  }
-	//              ],
-	//              '2015-2-1':
-	//              [
-	//              	{
-	//                      time:'11:05',
-	//                      content:'观看中央财经频道',
-	//                      id:'5'
-	//                  },
-	//                  {
-	//                      time:'12:05',
-	//                      content:'观看中央新闻1',
-	//                      id:'3'
-	//                  },
-	//                  {
-	//                      time:'15:05',
-	//                      content:'刷鞋子',
-	//                      id:'4'
-	//                  }
-	//              ]
-	//              
-	//          };
+
 
 
 	var now = new Date();
